@@ -1,0 +1,82 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header-section */
+
+.header-section {
+  margin-top: 20px;
+}
+
+.header-section__info {
+  display: flex;
+  align-items: center;
+
+}
+
+.header-section__local {
+  display: flex;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  color: #FDA3C4;
+  margin-top: 25px;
+}
+
+.header-section__local-link {
+  text-decoration: none;
+  }
+
+.header-section__local-info {
+  float: left;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.header-section__local-title {
+  position: relative;
+  bottom: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #FDA3C4;
+  padding-right: 14px;
+}
+
+.header-section__booriva {
+  padding: 0 216px 0 135px;
+}
+
+.header-section__icon {
+  padding-right: 10px;
+}
+
+.button {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15px;
+  color: #1F1F1F;
+  background-color: #fff;
+  border: 0;
+  }
+
+.header-section__like {
+  padding-left: 116px;
+
+}
+
+.header-section__like a {
+  text-decoration: none;
+}
+
+.header-section__like-shop {
+  padding-left: 38px;
+}
