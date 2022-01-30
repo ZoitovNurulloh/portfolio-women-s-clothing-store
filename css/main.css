@@ -1,13 +1,22 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
+* {
+  padding: 0;
+}
 .container {
   width: 1140px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.hr-tg {
+  padding: 0;
+  margin-top: 16px;
+  margin-bottom: 15px;
+  background-color: #FDA3C4;
+  border: 1px solid #FDA3C4;
+}
 /* header-section */
 
 .header-section {
@@ -17,7 +26,6 @@ body {
 .header-section__info {
   display: flex;
   align-items: center;
-
 }
 
 .header-section__local {
@@ -35,11 +43,11 @@ body {
 
 .header-section__local-info {
   float: left;
-  vertical-align: middle;
   padding-right: 10px;
 }
 
 .header-section__local-title {
+  display: inline-block;
   position: relative;
   bottom: 5px;
   font-weight: bold;
@@ -60,7 +68,7 @@ body {
 }
 
 .button {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 15px;
   color: #1F1F1F;
@@ -70,13 +78,94 @@ body {
 
 .header-section__like {
   padding-left: 116px;
+  margin-top: 10px;
 
 }
 
 .header-section__like a {
   text-decoration: none;
+  margin-left: 19px;
 }
 
 .header-section__like-shop {
   padding-left: 38px;
+}
+
+.header-section__interesting {
+  margin-top: 15px;
+}
+/* Nav section */
+
+.nav-menu {
+  margin-top: 27px;
+}
+
+.nav-menu__links {
+  list-style: none;
+  display: inline-block;
+  width: 12%;
+  box-sizing: border-box;
+}
+
+.nav-menu__links a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-transform: uppercase;
+  color: black;
+  padding: 10px;
+}
+
+.nav-menu__links a:active {
+  font-style: italic;
+  color: #FDA3C4;
+}
+
+.nav-menu__links a:hover {
+  background-color: #FDA3C4;
+  color: #fff;
+  font-style: italic;
+}
+
+/* main-section */
+
+
+ .main-section div {
+}
+.left-image__top-img {
+  position: relative;
+}
+
+.top-img__logo {
+  position: absolute;
+  top: 266px;
+  left: 22px;
+}
+
+.bottom-img__left {
+  position: relative;
+}
+
+.niz-logo {
+  position: absolute;
+  left: 157px;
+  top: 159px;
+}
+
+.left-image__bottom-img {
+  display: flex;
+  width: 50%;
+}
+
+.bottom-img__right {
+  position: relative;
+  left: 15px;
+}
+
+.verx-logo {
+  position: absolute;
+  top: 27px;
+  left: 139px;
 }
