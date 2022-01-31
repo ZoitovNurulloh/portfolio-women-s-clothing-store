@@ -1,9 +1,11 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
 * {
   padding: 0;
 }
+
 .container {
   width: 1140px;
   margin-left: auto;
@@ -17,6 +19,7 @@ body {
   background-color: #FDA3C4;
   border: 1px solid #FDA3C4;
 }
+
 /* header-section */
 
 .header-section {
@@ -39,7 +42,7 @@ body {
 
 .header-section__local-link {
   text-decoration: none;
-  }
+}
 
 .header-section__local-info {
   float: left;
@@ -74,7 +77,7 @@ body {
   color: #1F1F1F;
   background-color: #fff;
   border: 0;
-  }
+}
 
 .header-section__like {
   padding-left: 116px;
@@ -94,6 +97,7 @@ body {
 .header-section__interesting {
   margin-top: 15px;
 }
+
 /* Nav section */
 
 .nav-menu {
@@ -130,7 +134,9 @@ body {
 }
 
 /* main-section */
-
+.main-section {
+  display: flex;
+}
 .main-section__left-image {
   float: left;
   width: 50%;
@@ -172,3 +178,38 @@ body {
   left: 139px;
 }
 
+.main-section__right-image {
+  position: relative;
+  margin-left: 15px;
+}
+.right-image__top {
+ display: flex;
+}
+.platya-logo {
+  position: absolute;
+  right: 94px;
+  left: 15px;
+  bottom: 66px;
+  top: 174px;
+}
+
+.left-image__dresses {
+  position: relative;
+  margin-left: 15px;
+}
+
+.kostyumi-logo {
+  position: absolute;
+  left: 77px;
+  top: 227px;
+}
+
+.right-image__bottom {
+  position: relative;
+}
+
+.xudi-logo {
+  position: absolute;
+  top: 204px;
+  left: 53px;
+}
