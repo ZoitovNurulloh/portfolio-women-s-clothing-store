@@ -1,6 +1,42 @@
-body {
+@font-face {
   font-family: 'Montserrat', sans-serif;
+  src: url(../fonts/static/Montserrat-Regular.ttf);
 }
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url(../fonts/static/Montserrat-Italic.ttf);
+  font-weight: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url(../fonts/static/Montserrat-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url(../fonts/static/Montserrat-light.ttf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url(../fonts/static/Montserrat-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url(../fonts/static/Montserrat-Thin.ttf);
+  font-weight: thin;
+}
+
+body {
+  font: 'Montserrat', sans-serif;
+}
+
 
 * {
   padding: 0;
@@ -137,6 +173,7 @@ body {
 .main-section {
   display: flex;
 }
+
 .main-section__left-image {
   float: left;
   width: 50%;
@@ -182,9 +219,11 @@ body {
   position: relative;
   margin-left: 15px;
 }
+
 .right-image__top {
- display: flex;
+  display: flex;
 }
+
 .platya-logo {
   position: absolute;
   right: 94px;
@@ -212,4 +251,57 @@ body {
   position: absolute;
   top: 204px;
   left: 53px;
+}
+
+/* New-dress */
+
+.novinki-logo {
+  margin-top: 50px;
+  padding: 10px;
+  position: relative;
+}
+
+.novinki-logo__small {
+  position: absolute;
+  top: 60px;
+  left: 7px;
+}
+
+.novinki-logo__wave {
+  position: absolute;
+  top: 65px;
+  left: 157px;
+}
+
+.new-dress__info {
+  margin-top: 29px;
+  display: flex;
+}
+
+.new-dress__information-img {
+  margin-right: 10px;
+}
+
+.information-img__info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1F1F1F;
+  padding: 27px 28px 7px 21px;
+  position: relative;
+}
+
+.info-price {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FDA3C4;
+
+}
+
+.info-img__dress {
+  display: flex;
+  align-items: flex-end;
 }
