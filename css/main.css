@@ -34,7 +34,7 @@
 }
 
 body {
-  font:  sans-serif;
+  font: sans-serif;
 }
 
 
@@ -304,4 +304,77 @@ body {
 .info-img__dress {
   display: flex;
   align-items: flex-end;
+}
+
+.button-more {
+  text-align: center;
+  margin-top: 27px;
+  margin-bottom: 60px;
+}
+
+/* New-colletion */
+
+.new-collection {
+  text-align: center;
+}
+
+/* Marshrut-section */
+.marshrut {
+  position: relative;
+}
+
+.image-shop {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.booriva-store-info {
+  position: absolute;
+  font-size: 54px;
+  line-height: 103px;
+  text-transform: uppercase;
+  color: #1F1F1F;
+  left: 290px;
+  top: 140px;
+}
+
+.booriva-store__info-adress {
+  position: absolute;
+  top: 570px;
+  left: 260px;
+}
+
+.info-adress__title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  color: #1F1F1F;
+}
+
+.booriva-store__info-order {
+  position: absolute;
+  top: 420px;
+  right: 270px;
+}
+
+info-order__title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #1F1F1F;
+}
+
+.booriva-store__map {
+  position: absolute;
+  left: 918px;
+  top: 583px;
+}
+
+.button-pro {
+  position: absolute;
+  top: 700px ;
+  left: 617px;
 }
